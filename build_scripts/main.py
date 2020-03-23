@@ -626,7 +626,7 @@ class PysideBuild(_build):
                                 break
                             libs_tried.append(py_library)
 
-            if not python_library_found:
+            if not python_library_found and 1==0:
                 raise DistutilsSetupError(
                     "Failed to locate the Python library with {}".format(", ".join(libs_tried)))
 
